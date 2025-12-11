@@ -1,0 +1,31 @@
+{
+  "scenario": "Cancer Mutation Hypothesis Testing for Precision Oncology",
+  "time_budget_minutes": 2.0,
+  "comparison": {
+    "traditional_gpt": {
+      "hypotheses_generated": 8,
+      "hypotheses_tested": 8,
+      "generation_time": 72.59761381149292,
+      "testing_time": 0.8765509128570557,
+      "analysis_time": 37.838088035583496,
+      "total_time": 111.31225275993347,
+      "clinical_insights": "Short answer first: with a validation rate of 0/8, none of the tested hypotheses are validated and therefore none should be considered clinically actionable at this time. The correct clinical response is caution \u2014 do not change standard\u2011of\u2011care treatment on the basis of these negative results. Below..."
+    },
+    "accelerated_cerebras": {
+      "hypotheses_generated": 32,
+      "hypotheses_tested": 10,
+      "generation_time": 53.22325921058655,
+      "testing_time": 0.907508373260498,
+      "analysis_time": 4.669133901596069,
+      "total_time": 58.799901485443115,
+      "clinical_insights": "\nPlease provide the list of validated cancer mutations. The analysis is entirely dependent on the specific genes, variants, and cancer type.\n\nTo show you what I can provide, here is a rapid analysis based on a hypothetical case of **Non-Small Cell Lung Cancer (NSCLC)**.\n\n---\n\n### **Hypothetical Case..."
+    },
+    "velocity_metrics": {
+      "hypothesis_speedup": 4.0,
+      "time_savings_seconds": 52.512351274490356,
+      "time_savings_percentage": 47.17571513689823,
+      "research_velocity_gain": 1.893068694808794,
+      "more_hypotheses_per_minute": 24
+    }
+  }
+}

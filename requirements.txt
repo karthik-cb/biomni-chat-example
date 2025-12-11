@@ -1,0 +1,42 @@
+# Multi-Agent Biomedical Research Demo Requirements
+# Memorial Sloan Kettering Precision Oncology Use Case
+
+# Core Framework
+biomni>=0.0.8
+
+# LLM Integration - Core dependencies
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-anthropic>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.1.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Data Visualization (for performance charts)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.0.0
+gradio>=4.0.0
+
+# JSON Processing
+ujson>=5.8.0
+
+# Testing
+pytest>=7.4.0
+
+# Development Tools
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Additional dependencies for Biomni
+tqdm>=4.65.0
+pydantic>=2.0.0
